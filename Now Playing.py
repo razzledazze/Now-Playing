@@ -50,8 +50,8 @@ def getTracksFromAlbum(album_uri,sp):
     return track_names, track_uris
 
 
-client_id = '9773685ca20e4996af79740612063d3a'
-client_secret = '0d8e2cba2a1b470a933e19ffc310f1b2'
+client_id = '' # Your client id
+client_secret = '' # Your secret key
 sp = validateCredentials(client_id, client_secret)
 
 url = 'https://www.internet-radio.com/station/radioparadise/' #enter any internet radio station url and this app will work with it
